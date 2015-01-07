@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #DDD;
+  font-family: 'Droid Serif';
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans';
+}
+.content {
+  background-color: #FFF;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header-image {
+  position: relative;
+  height: 400px;
+  background-image: url('https://unsplash.imgix.net/photo-1417962798089-0c93ceaed88a?q=75&fm=jpg&s=2da8b1d69ce267ad866bf4d6477d1ae7');
+  background-position: center center;
+  background-size: cover;
+}
+.header-image h2 {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  padding: 2%;
+}
+.profile {
+  text-align: center;
+}
+.profile-picture, .profile .profile-text {
+  vertical-align: middle;
+  display: inline-block;
+}
+.profile-picture {
+  margin: 2em auto;
+  max-width: 25%;
+  min-width: 200px;
+}
+.profile-picture img {
+  display: block;
+  margin: 2% auto;
+  max-width: 200px;
+}
+.profile .profile-text p {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.profile-picture, .profile-text {
+  text-align: center;
+}
+.profile-text {
+  max-width: 75%;
+  display: inline-block;
+  padding: 5%;
+}
